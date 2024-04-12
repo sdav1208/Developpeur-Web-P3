@@ -48,12 +48,12 @@ main {
     box-sizing: border-box;
 }
 
-#loupe-icone {
+#zoom-icon {
     visibility: hidden;
 
 }
 
-#btn-rechercher {
+#btn-search {
     visibility: visible;
 }
 
@@ -167,7 +167,7 @@ section.top {
 
 
 
-#btn-rechercher {
+#btn-search {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
@@ -450,18 +450,16 @@ section.top {
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-between;
     }
-
+.activites-cards img{
+    height: 190px;
+}
     .populaires-cards a {
         width: 30%;
     }
 
-
-    
-
-    .populaires-cards .card-title {
+        .populaires-cards .card-title {
         font-size: 14px;
     }
 
@@ -511,7 +509,7 @@ section.top {
         color: var(--main-color);
     }
 
-    #btn-rechercher {
+    #btn-search {
         display: none;
     }
 
@@ -526,7 +524,6 @@ section.top {
         width: 100%;
         gap:0;
     }
-
 
 
 
@@ -545,7 +542,7 @@ section.top {
 
     /* mettre l 'icone de la loupe à la place du texte rechercher*/
 
-    #loupe-icone {
+    #zoom-icon {
         visibility: visible;
         height: 49px;
         width: 49px;
@@ -560,7 +557,7 @@ section.top {
 
     }
 
-    #loupe-icone .fa-solid {
+    #zoom-icon .fa-solid {
         color: var(--filter-bg-color);
     }
 
@@ -573,6 +570,10 @@ section.top {
         justify-content: center;
     }
 
+    .search input{
+        flex:1;
+        width: 100%;
+    }
     .filters {
         flex-direction: row;
         flex-wrap: wrap;
@@ -599,12 +600,6 @@ section.top {
     .filters menu button {
         font-size: 13px;
         width: 100%;
-    }
-
-    .note {
-
-        display: flex;
-        align-items: center;
     }
 
     /****** Hebergements And Populaires ***********/
@@ -654,7 +649,7 @@ section.top {
 
 
     .activites-cards img {
-        height: 150px;
+        height: 80px;
     }
 
     .activites-cards h3 {
@@ -663,16 +658,16 @@ section.top {
 
     /*******************************FOOTER*************************/
 
-    .link-container {
+     .link-container {
         margin: 0;
         display: flex;
         flex-direction: column;
         padding: 20px;
 
+    } 
+    .footer-link {
+        width: 100%;
     }
-
-    .link-container nav a.nav-link {
-        margin-bottom: 10px;
-    }
+    
 
 }
