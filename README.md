@@ -1,4 +1,4 @@
-### Projet 3 du parcours  de  Développeur Intégratreur Web  chez Openclassrooms
+### Projet 3 du parcours  de  Développeur Intégrateur Web  chez Openclassrooms
 
 
 
